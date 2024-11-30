@@ -9,7 +9,6 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'dist', // Mengarahkan output ke folder "dist"
+        outDir: 'dist', // Mengatur folder output ke 'dist'
     },
 });
-
