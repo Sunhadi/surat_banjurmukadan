@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://avatars.githubusercontent.com/u/87377917?s=200&v=4" width="200" alt="404NFID Logo"></a></p>
 
 
-##  Website Surat Menyurat Desa Banjurmukadan
+Website Surat Menyurat Desa Banjurmukadan
 
 Web app untuk mengelola surat masuk, keluar, serta disposisinya.
 
@@ -83,29 +83,6 @@ Web app untuk mengelola surat masuk, keluar, serta disposisinya.
 ## Database Schema / Skema Database
 <img src="https://github.com/404NotFoundIndonesia/laravel-surat-menyurat-v1/blob/main/database_schema.png" alt="database schema">
 
-## Installation / Instalasi
-Direkomendasikan menggunakan php > 8.1.0. Pastikan repo ini telah diclone, kemudian buka CLI dan posisikan direktori aktif ke repo ini.
-Silakan pilih salah satu dari dua cara di bawah ini.
-
-### Makefile Setup
-Jalankan perintah berikut untuk setup awal
-```
-make setup
-```
-Pastikan Anda telah membuat database baru di MySQL dan silakan sesuaikan file `.env` dengan database Anda.
-Jalankan perintah berikut untuk setup database 
-```
-make setup-db
-```
-Atau jalankan perintah berikut untuk setup database beserta data _dummy_
-```
-make setup-dummy
-```
-Terakhir, jalankan perintah berikut untuk menjalankan web app
-```
-make run
-```
-
 ### Manual Setup
 Jalankan perintah berikut untuk menginstal dependensi php
 ```
@@ -146,25 +123,9 @@ php artisan serve
 ```
 Setelah perintah di atas dijalankan, web app Anda bisa sudah bisa diakses
 
-## Login
-Untuk login aplikasi silakan masukkan surel dan kata sandi berikut
-
-| Surel      | admin@admin.com |
-|------------|-----------------|
-| Kata Sandi | admin           |
-
-## Language / Bahasa
-Tersedia 2 pilihan bahasa untuk web app ini, bahasa Indonesia dan Inggris.
-Untuk menggantinya, buka file `config/app.php` kemudian ganti nilai pada `locale` menjadi `id` atau `en`.
-
 ## Timezone / Zona Waktu
 Untuk mengganti zona waktu silakan buka file `config/app.php`
 dan ganti nilai pada `timezone` sesuai dengan keinginan Anda.
 Silakan merujuk ke [dokumentasi php](https://www.php.net/manual/en/timezones.php) untuk nilai zona waktu yang bisa digunakan.
 
-## Other / Lainnya
-Proyek ini menggunakan admin template [Sneat](https://github.com/themeselection/sneat-html-admin-template-free)
-
-## License / Lisensi
-
-Berlisensi di bawah [MIT license](https://github.com/404NotFoundIndonesia/laravel-surat-menyurat-v1/blob/main/LICENSE).
+Adding a small change for YOLO achievement.
